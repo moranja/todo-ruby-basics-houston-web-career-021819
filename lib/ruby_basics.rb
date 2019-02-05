@@ -1,3 +1,5 @@
+require 'pry'
+
 def division(num1, num2)
  div = num1/num2
 end
@@ -17,7 +19,7 @@ end
 
 def return_a_value (value)
   return value
-
+binding.pry
 end
 
 def last_evaluated_value (value)
